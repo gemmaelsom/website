@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap');
+
+/* All Pages */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* All Pages */
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    text-align:right;
+    color:rgb(211, 203, 211);
+    font-size: 1rem;
+    font-family:'Noto Sans JP', sans-serif;
+}
+/* All Pages */
+.header {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align:right;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    color: black;
+    font-weight: bolder;
+}
+/* All Pages */
+body {
+    background-color:rgb(243, 237, 225);
+    font-family:'Noto Sans JP', sans-serif;
+}
+
+/* Contact Page */
+.hello{
+    margin:1em;
+    text-align: center;
+    font-size: 3em;
+}
+
+form {
+    width: 300px;
+    height:400px;
+    background-color:rgb(243, 237, 225);
+    box-shadow: 0px 0px 10px 0px rgb(155, 147, 147);
+    top: 30%;
+    left: 10%;
+    position: fixed;
+    border: solid grey;
+    margin-top: 100px;  
+}
+
+/* Contact Page */
+label {
+    margin: 35px;
+}
+/* Contact Page */
+.input-field {
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid black;
+    border-radius: 14px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Contact Page */
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+/* Contact Page */
+.button {
+    border-radius: 300px;
+    color: black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #f5f0f4;
+    font-size: 12px;
+    border:solid black;
+    cursor: pointer;
+}
+/* Blog Page */
+.blog.html {
+    padding:50px;
+    margin:50px;
+    max-height: 400px;
+    max-width: 400px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Blog Page */
+.blogposts {
+    padding:10px;
+    margin-top: 40px;
+}
+/* Blog Page */
+h2 {
+    margin-top:100px;
+    margin-left:50px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+/* Blog Page */
+.images {
+    max-width:100%;
+}
+
+/* Home Page */
+.bgimage {
+    padding:20em;
+    background-image: url("at3.jpg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    opacity: 70%;
+}
+/* Home Page */
+.main-title {
+    position:absolute;
+    top: 50%;
+    height:510em;
+    display:inline;
+    color:black;
+    font-size: 5em;
+    font-weight:600;
+    margin:10px;
+    max-width: 100%;
+}
+
+
