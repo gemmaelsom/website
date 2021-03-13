@@ -1,0 +1,81 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+  font-size: 1em;
+  margin: 20px;
+}
+
+a {
+  color: #6d5e53;
+  text-decoration: overline;
+  font-size: 2em;
+}
+
+a:hover {
+  font-size: 250%;
+  color: #ce7951;
+}
+
+span {
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+footer {
+  position: static;
+}
+
+@media screen and (min-width: 700px) {
+  form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    width: 50%;
+  }
+  form textarea {
+    width: 50%;
+  }
+  form button {
+    width: 20%;
+  }
+  p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5%;
+    font-size: 2em;
+    margin: 20px;
+  }
+  .resume {
+    text-decoration: overline;
+    font-size: 3em;
+  }
+  span {
+    font-size: 2em;
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=work.css.map */

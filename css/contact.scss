@@ -1,0 +1,158 @@
+// Animation
+@keyframes color-changing {
+  0% {
+    background-color: #6f8869;
+  }
+  25% {
+    background-color: #e6dfcc;
+  }
+  50% {
+    background-color: #fadce2;
+  }
+  75% {
+    background-color: #b98aaa;
+  }
+  100% {
+    background-color: #ee939d;
+  }
+}
+// The body of the page
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 32px - 308px);
+  justify-content: center;
+  padding: 10px;
+}
+// Header
+.hello {
+  margin: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+// Contact form
+form {
+  background-color: #fadce2;
+  box-shadow: 0px 0px 10px 0px rgb(155, 147, 147);
+  justify-content: space-between;
+  border-radius: 15%;
+  padding: 20px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  animation-name: color-changing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  input {
+    width: 50%;
+    padding: 10px 0;
+    border: 2px solid black;
+  }
+  textarea {
+    width: 60%;
+    border: 2px solid black;
+  }
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 300px;
+    color: black;
+    background-color: #f5f0f4;
+    font-size: 12px;
+    border: solid #000000;
+    cursor: pointer;
+  }
+}
+// Input fields
+.input-field {
+  border: 3px solid black;
+  border-radius: 14px;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px 0;
+  text-align: center;
+}
+// Text area fields
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+// Social Media Links
+.sub-heading {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+// GitHub Link
+#social-media-logo1 {
+  max-width: 50px;
+}
+// GitHub Link Effects
+#social-media-logo1:hover {
+  transform: rotate(0.5turn);
+}
+// LinkedIn Link
+#social-media-logo2 {
+  max-width: 50px;
+}
+//LinkedIn Link Effects
+#social-media-logo2:hover {
+  transform: rotate(0.5turn);
+}
+// Twitter Link
+#social-media-logo3 {
+  max-width: 50px;
+}
+// Twitter Link Effects
+#social-media-logo3:hover {
+  transform: rotate(0.5turn);
+}
+// Footer
+footer {
+  position: static;
+}
+// Responsiveness for Desktop
+@media screen and (min-width: 700px) {
+  form {
+    align-items: center;
+    max-height: 100vh;
+    input {
+      width: 50%;
+    }
+    textarea {
+      width: 50%;
+    }
+    button {
+      width: 20%;
+    }
+  }
+  // Header
+  .hello {
+    font-size: 3em;
+  }
+  // Social Media Links
+  .sub-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 10px;
+  }
+  // GitHub
+  #social-media-logo1 {
+    max-width: 100px;
+  }
+  // LinkedIn
+  #social-media-logo2 {
+    max-width: 100px;
+  }
+  // Twitter
+  #social-media-logo3 {
+    max-width: 100px;
+  }
+}

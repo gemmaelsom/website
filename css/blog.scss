@@ -1,0 +1,92 @@
+// CSS for blog.html
+.blog.html {
+  padding: 50px;
+  margin: 50px;
+  max-height: 400px;
+  max-width: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+// Text Content of Blog Posts
+.blogposts {
+  padding: 10px;
+  margin-top: 40px;
+}
+
+// Body of the blog
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #171d1f;
+  // Div for each blog posts
+  article {
+    border-bottom: solid 5px black;
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    width: 100vw;
+  }
+  //Blog title
+  h2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #171d1f;
+    width: 100vw;
+  }
+  // Date of post
+  h3 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #171d1f;
+  }
+  // Content of each post
+  p {
+    border-radius: 10px solid black;
+    margin: 10px;
+    word-wrap: break-word;
+  }
+  // Image for each post
+  img {
+    max-width: 300px;
+  }
+}
+// Footer
+footer {
+  position: static;
+}
+// Responsiveness for Desktop
+@media screen and (min-width: 700px) {
+  form {
+    align-items: center;
+    input {
+      width: 50%;
+    }
+    textarea {
+      width: 50%;
+    }
+    button {
+      width: 20%;
+    }
+  }
+  // Images in the blog posts
+  main {
+    img {
+      display: flex;
+      max-width: 20%;
+      max-height: 20%;
+      align-self: flex-end;
+      align-content: center;
+      padding-top: 20px;
+      padding-left: 40%;
+    }
+    // Animation for the images
+    img:hover {
+      transform: rotate(10deg);
+    }
+  }
+}

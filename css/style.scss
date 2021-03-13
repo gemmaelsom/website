@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap');
+// Animation
+@keyframes color-changing-title {
+    0% {background-color:  #6F8869; }
+    25% {background-color: #E6DFCC; }
+    50% {background-color: #FADCE2;}
+    75% {background-color: #b98aaa;}
+    100% {background-color:#EE939D;}
+}
+// All pages setting 
+* {
+    margin:0;
+    padding:0;
+}
+
+// Footer
+footer{
+    position:static;
+    width: 100%;
+    margin-top: 15%;
+    text-align:center;
+    color: #310054;
+    font-size: 1em;
+    font-family:'Noto Sans JP', sans-serif;
+}
+// Nav bar
+nav {
+    display:flex;
+    text-align:right;
+    flex-direction:column-reverse;
+    justify-content:space-around;
+    // Links in the nav bar
+    a {
+    color: #6b4a81;
+    font-family:'Noto Sans JP',sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+}
+// All H1's
+h1 {
+    font-size: 6em;
+    color: #171D1F;
+    font-family:'Noto Sans JP', sans-serif;
+    width:100vw;
+    text-align: center;
+    animation-name: color-changing-title;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+// Effect for nav bar links
+nav a:hover {
+    background-color:#ce7951;
+}
+// All Pages 
+body {
+    background-color: #F0D883;
+    font-family:'Noto Sans JP', sans-serif;
+}
+
+// Responsiveness for Desktop
+@media screen and (min-width: 700px) {
+    form {
+        align-items: center;
+        input {
+            width: 50%;
+        }
+        textarea {
+            width: 50%;
+        }
+        button {
+            width: 20%;
+        }
+    }
+// Nav bar and links
+nav {
+    display: flex;
+    text-align:right;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    a {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 2em;
+        font-weight:bold;
+    }
+    }
+}

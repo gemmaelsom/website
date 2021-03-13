@@ -1,0 +1,66 @@
+// Body
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+// Bio
+p {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-size: 1em;
+  margin: 20px;
+}
+a {
+  color: rgb(109, 94, 83);
+  text-decoration: overline;
+  font-size: 2em;
+}
+// Links effects
+a:hover {
+  font-size: 250%;
+  color: #ce7951;
+}
+// Hey there
+span {
+  font-size: 2em;
+  margin-right: 20px;
+}
+// Footer
+footer {
+  position: static;
+}
+// Responsiveness for desktop
+@media screen and (min-width: 700px) {
+  form {
+    align-items: center;
+    input {
+      width: 50%;
+    }
+    textarea {
+      width: 50%;
+    }
+    button {
+      width: 20%;
+    }
+  }
+  // Bio
+  p {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 2em;
+    margin: 20px;
+  }
+  // Resumes
+  .resume {
+    text-decoration: overline;
+    font-size: 3em;
+  }
+  // Hey there
+  span {
+    font-size: 2em;
+    margin-right: 20px;
+  }
+}

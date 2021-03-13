@@ -1,0 +1,49 @@
+#main-title {
+  color: #974925;
+  font-size: 6em;
+  font-weight: 600;
+  background-image: url("../images/at3.jpg");
+  background-repeat: repeat-x;
+  opacity: 70%;
+  height: calc(100vh - 72px - 32px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+#main-title p {
+  z-index: 2;
+}
+
+@media screen and (min-width: 700px) {
+  form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    width: 50%;
+  }
+  form textarea {
+    width: 50%;
+  }
+  form button {
+    width: 20%;
+  }
+  #main-title {
+    font-size: 10em;
+  }
+}
+
+footer {
+  position: static;
+}
+/*# sourceMappingURL=index.css.map */
