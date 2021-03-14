@@ -1,3 +1,9 @@
+commit e72d03956ffb971ec31779b89d5dee0301d52586
+Author: Gemma <gemma@gemmaelsom.com>
+Date:   Sun Mar 14 11:16:24 2021 +1000
+
+    Fixed small formatting error that made the header too big, fixed a spelling mistake
+
 commit 84215658f8aa1673683aa74a109ba3cad806469b
 Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
 Date:   Sat Mar 13 22:59:02 2021 +1000
