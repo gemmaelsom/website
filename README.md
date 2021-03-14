@@ -1,8 +1,9 @@
 # My Portfolio Website
 
 ## The Published Site
-
+http://127.0.0.1:5500/index.html
 ## My GitHub Repository
+https://github.com/gemmaelsom/website
 
 ## Purpose
 The purpose of this site is to showcase my skills, education and work history, and interests in one place. The goal is to attract potential employers or other developers that may like to work with me. 
@@ -35,6 +36,7 @@ The target audience for my portfolio site is primarily perspective employers and
 - CSS
 - GitHub
 - Netlify
+- Formspree
 
 
 
