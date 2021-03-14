@@ -1,0 +1,35 @@
+commit 84215658f8aa1673683aa74a109ba3cad806469b
+Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
+Date:   Sat Mar 13 22:59:02 2021 +1000
+
+    Added SRI verification
+
+commit 512c21893a96e9a968228cc7d33057e0d065bc0c
+Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
+Date:   Sat Mar 13 22:37:52 2021 +1000
+
+    CSS bugfixes and setup animations
+    
+    The CSS was broken for some screen sizes, this commit fixes that. It also adds some small animations.
+
+commit f47459ab453257fe7acfc17535019eec01db2799
+Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
+Date:   Thu Mar 11 22:56:10 2021 +1000
+
+    Setup CSS Layout and images
+    
+    Added images to HTML and setup CSS layout
+
+commit 8a46f9c299ae3e54d86db4f4c1ddbe41d14968ca
+Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
+Date:   Thu Mar 11 11:40:52 2021 +1000
+
+    Setup html scaffold
+    
+    Setup un-styled HTML pages
+
+commit 3c058747acc9236dff201f0522b0cd144994a39a
+Author: gemmaelsom <73106436+gemmaelsom@users.noreply.github.com>
+Date:   Thu Mar 11 11:25:43 2021 +1000
+
+    Initial commit
