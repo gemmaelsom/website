@@ -20,12 +20,12 @@ The main features of the website are:
 - Active "Contact Me" form that sends an email to me directly
 
 ## Sitemap
-![](./images/ScreenShotOfSitemap.png)
+![](./docs/ScreenShotOfSitemap.png)
 
 ## Screenshots
-![](./images/ScreenShotOfWorkpageiPad.png)
-![](./images/ScreenShotOfWorkpageMobile.png)
-![](./images/ScreenShotOfWorkpageDesktop.png)
+![](./docs/ScreenShotOfWorkpageiPad.png)
+![](./docs/ScreenShotOfWorkpageMobile.png)
+![](./docs/ScreenShotOfWorkpageDesktop.png)
 
 
 ## Target audience
