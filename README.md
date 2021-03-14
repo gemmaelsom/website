@@ -38,5 +38,3 @@ The target audience for my portfolio site is primarily perspective employers and
 - Netlify
 - Formspree
 
-
-
