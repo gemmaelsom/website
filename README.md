@@ -1,7 +1,9 @@
 # My Portfolio Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9c1eeb3-868c-44f3-9e88-06ba39bd5696/deploy-status)](https://app.netlify.com/sites/hungry-joliot-0c0d3e/deploys)
+
 ## The Published Site
-http://127.0.0.1:5500/index.html
+https://hungry-joliot-0c0d3e.netlify.app
 ## My GitHub Repository
 https://github.com/gemmaelsom/website
 
