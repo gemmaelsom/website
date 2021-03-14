@@ -74,18 +74,21 @@ body {
             width: 20%;
         }
     }
-// Nav bar and links
-nav {
-    display: flex;
-    text-align:right;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    a {
-        font-family: 'Noto Sans JP', sans-serif;
-        font-size: 2em;
-        font-weight:bold;
+    // Nav bar and links
+    nav {
+        display: flex;
+        text-align:right;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        a {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 2em;
+            font-weight:bold;
+        }
     }
+
+    // Desktop Heading
+    h1 {
+            font-size: 6em;
     }
-h1 {
-        font-size: 6em;
 }
